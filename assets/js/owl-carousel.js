@@ -4,7 +4,7 @@ $(document).ready(function(){
   $(document).ready(function(){
     $('.counter').counterUp({
       delay: 10, // animasyonun gecikme süresi
-      time: 6000, // animasyonun tamamlanma süresi
+      time: 4000, // animasyonun tamamlanma süresi
       formatter: function (n) {
         return n + '+'; // Sayının sonuna "+" sembolünü ekleyerek gösterme
       }
