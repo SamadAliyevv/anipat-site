@@ -19,24 +19,32 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
   </head>
   <body>
- <!-- // Header Section Start -->
- <header>
-    <div class="header-area">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-xl-3 col-lg-3">
-            <div class="logo">
-              <a href="index.html">
-                <img src="./assets/img/logo.png" alt="logo" />
-              </a>
+    <!-- // Header Section Start -->
+    <header>
+      <div id="sticky-header" class="header-area">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-xl-3 col-lg-3">
+              <div class="logo">
+                <a href="index.html">
+                  <img src="./assets/img/logo.png" alt="logo" />
+                </a>
+              </div>
             </div>
-          </div>
-          <div class="col-xl-9 col-lg-9">
-            <div class="main-menu d-lg-block">
-              <nav>
-                <ul id="navigation">
+            <div class="col-xl-9 col-lg-9">
+              <div class="main-menu d-lg-block">
+                <nav>
+                  <ul id="navigation">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Blog</a></li>
@@ -44,53 +52,432 @@
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Contact</a></li>
                   </ul>
-              </nav>
-
-    </div>
-            </div>
-
- </header>
- <!-- // Header Section End -->
- <!-- // Slider Section Start -->
- <section class="slider-area">
- <div class="single_slider slider_bg_1 d-flex align-items-center">
-    <div class="container">
-        <div class="row">
-          <div class="col-lg-5 col-md-6">
-            <div class="slider_text">
-              <h3>We Care <br><span>Your Pets</span></h3>
-              <p>Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod.</p>
-              <a href="#" class="boxed-btn4">Learn More</a>
+                </nav>
               </div>
-              
+            </div>
           </div>
         </div>
-    </div>
-    <div class="dog_thumb">
-      <img src="./assets/img/banner/dog.png" alt>
       </div>
- </div>
- </section>
- <!-- // Slider Section End -->
+    </header>
+    <!-- // Header Section End -->
+    <!-- // Slider Section Start -->
+    <div class="slider-area">
+      <div class="single_slider slider_bg_1 d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-md-6">
+              <div class="slider_text">
+                <h3 class="anim">We Care <br /><span>Your Pets</span></h3>
+                <p class="anim">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod.
+                </p>
+                <a href="#" class="boxed-btn4 anim">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dog_thumb">
+          <img class="anim" src="./assets/img/banner/dog.png" alt />
+        </div>
+      </div>
+    </div>
+    <!-- // Slider Section End -->
+    <!-- // Service Section Start -->
+    <div class="service-area">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-7 col-md-10">
+            <div class="section_title text-center">
+              <h3>Services for every dog</h3>
+              <p>
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6">
+            <div class="single_service">
+              <div
+                class="service_thumb service_icon_bg_1 d-flex align-items-center justify-content-center"
+              >
+                <div class="service_icon">
+                  <img src="./assets/img/service/service_icon_1.png" alt="" />
+                </div>
+              </div>
+              <div class="service_content text-center">
+                <h3>Adoption</h3>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="single_service">
+              <div
+                class="service_thumb service_icon_bg_1 d-flex align-items-center justify-content-center"
+              >
+                <div class="service_icon">
+                  <img src="./assets/img/service/service_icon_2.png" alt="" />
+                </div>
+              </div>
+              <div class="service_content text-center">
+                <h3>Healthy Meals</h3>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="single_service">
+              <div
+                class="service_thumb service_icon_bg_1 d-flex align-items-center justify-content-center"
+              >
+                <div class="service_icon">
+                  <img src="./assets/img/service/service_icon_3.png" alt="" />
+                </div>
+              </div>
+              <div class="service_content text-center">
+                <h3>Pet Spa</h3>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- // Service Section End -->
+    <!--   Pet Area Start -->
+    <div class="pet_care_area">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-5 col-md-6">
+            <div class="pet_thumb">
+              <img src="./assets/img/about/pet_care.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6 offset-lg-1 col-md-6">
+            <div class="pet_info">
+              <div class="section_title">
+                <h3>
+                  <span>We care your pet </span>
+                  <br />
+                  As you care
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+                  ex saepe error sunt facere veniam temporibus in rerum totam
+                  corporis!
+                </p>
+                <a href="#" class="boxed-btn3">About Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  Pet Area End  -->
+    <!-- Adapt Area Start -->
+    <div class="adapt_area">
+      <div class="container">
+        <div class="row row justify-content-between align-items-center">
+          <div class="col-lg-5">
+            <div class="adapt_help">
+              <div class="section_title">
+                <h3>
+                  <span>We care your pet</span>
 
+                  As you care
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+                  ex saepe error sunt facere veniam temporibus in rerum totam
+                  corporis!
+                </p>
+                <a href="#" class="boxed-btn3">About Us</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="adapt_about">
+              <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6">
+                  <div class="single_adapt text-center">
+                    <img src="./assets/img/adapt_icon/1.png" alt />
+                    <div class="adapt_content">
+                      <h3 class="counter">452</h3>
+                      <p>Pets Available</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <div class="single_adapt text-center">
+                    <img src="./assets/img/adapt_icon/2.png" alt />
+                    <div class="adapt_content">
+                      <h3><span class="counter">52</span>+</h3>
+                      <p>Pets Available</p>
+                    </div>
+                  </div>
+                  <div class="single_adapt text-center">
+                    <img src="./assets/img/adapt_icon/3.png" alt />
+                    <div class="adapt_content">
+                      <h3><span class="counter">52</span>+</h3>
+                      <p>Pets Available</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Adapt Area End -->
 
+    <!-- Testimonial Area Start -->
+    <div class="testmonial_area">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="textmonial_active owl-carousel">
+              <div class="testmonial_wrap">
+                <div class="single_testmonial d-flex align-items-center">
+                  <div class="test_thumb">
+                    <img src="/assets/img/testmonial/1.png" alt />
+                  </div>
+                  <div class="test_content">
+                    <h4>Jhon Walker</h4>
+                    <span>Head of web design</span>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exerci.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="testmonial_wrap">
+                <div class="single_testmonial d-flex align-items-center">
+                  <div class="test_thumb">
+                    <img src="/assets/img/testmonial/1.png" alt />
+                  </div>
+                  <div class="test_content">
+                    <h4>Jhon Walker</h4>
+                    <span>Head of web design</span>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exerci.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="testmonial_wrap">
+                <div class="single_testmonial d-flex align-items-center">
+                  <div class="test_thumb">
+                    <img src="/assets/img/testmonial/1.png" alt />
+                  </div>
+                  <div class="test_content">
+                    <h4>Jhon Walker</h4>
+                    <span>Head of web design</span>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exerci.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Testimonial Area End -->
 
-
-
-
-
-
-
-
-
-
-
-
+    <!-- Team Area Start -->
+    <div class="team_area">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 col-md-10">
+            <div class="section_title text-center">
+              <h3>Our Team</h3>
+              <p>
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6">
+            <div class="single_team">
+              <div class="thumb">
+                <img src="./assets/img/team/1.png" alt />
+              </div>
+              <div class="member_name text-center">
+                <div class="member_inner">
+                  <h4>Rala Emaila</h4>
+                  <p>Senior Director</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="single_team">
+              <div class="thumb">
+                <img src="./assets/img/team/2.png" alt />
+              </div>
+              <div class="member_name text-center">
+                <div class="member_inner">
+                  <h4>Jhon Walker</h4>
+                  <p>Senior Director</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="single_team">
+              <div class="thumb">
+                <img src="./assets/img/team/3.png" alt />
+              </div>
+              <div class="member_name text-center">
+                <div class="member_inner">
+                  <h4>Samantha Doe</h4>
+                  <p>Senior Director</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Team Area End -->
+    <!-- Contact Area Start -->
+    <div class="contact_area anipat_bg_1">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="contact_text text-center">
+              <div class="section_title text-center">
+                <h3>Why go with Anipat?</h3>
+                <p>
+                  Because we know that even the best technology is only as good
+                  as the people behind it. 24/7 tech support.
+                </p>
+              </div>
+              <div
+                class="contact_btn d-flex align-items-center justify-content-center"
+              >
+                <a href="#" class="boxed-btn4">Contact Us</a>
+                <p>Or <a href="#">Get A Quote</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact Area End -->
+    <!-- Footer Area Start -->
+    <footer class="footer">
+      <div class="footer_top">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-3 col-md-6 col-lg-3">
+              <div class="footer_widget">
+                <h3 class="footer_title">Contact Us</h3>
+                <ul class="address_line">
+                  <li>+555 0000 565</li>
+                  <li><a href="#">Demomail@gmail.Com</a></li>
+                  <li>700, Green Lane, New York, USA</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6 col-lg-3">
+              <div class="footer_widget">
+                <h3 class="footer_title">Our Servces</h3>
+                <ul class="links">
+                  <li><a href="#">Pet Insurance</a></li>
+                  <li><a href="#">Pet surgeries </a></li>
+                  <li><a href="#">Pet Adoption</a></li>
+                  <li><a href="#">Dog Insurance</a></li>
+                  <li><a href="#">Dog Insurance</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6 col-lg-3">
+              <div class="footer_widget">
+                <h3 class="footer_title">Quick Link</h3>
+                <ul class="links">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Terms of Service</a></li>
+                  <li><a href="#">Login info</a></li>
+                  <li><a href="#">Knowledge Base</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6 col-lg-3">
+              <div class="footer_widget">
+                <div class="footer_logo">
+                  <a href="#">
+                    <img src="./assets/img/logo.png" alt="" />
+                  </a>
+                </div>
+                <p class="address_text">239 E 5th St, New York NY 10003, USA</p>
+                <div class="social_links">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa-brands fa-pinterest"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa-brands fa-google"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa-brands fa-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Area End -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
   </body>
 </html>
